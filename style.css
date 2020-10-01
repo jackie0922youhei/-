@@ -70,6 +70,7 @@ footer {
 @media screen and (max-width: 768px) {
   header {
     width: 100%;
+    height: 50px;
   }
 
   main {
@@ -79,6 +80,7 @@ footer {
 
   footer {
     width: 100%;
+    height: 50px;
   }
 
   .step-num {
@@ -86,19 +88,19 @@ footer {
   }
 
   .step-img1 {
-    height: 130px;
+    height: 150px;
   }
 
   .step-img2 {
-    height: 130px;
+    height: 150px;
   }
 
   .step-img3 {
-    height: 130px;
+    height: 150px;
   }
 
-  .title {
-    font-size: 15px;
+  .text {
+    font-size: 12px;
   }
 
   .step-box {
@@ -106,7 +108,11 @@ footer {
     margin: 20px auto;
   }
 
+  .step-box:first-child {
+    margin-top: 50px;
+  }
+
   .step-box:last-child {
-    margin: 20px auto 40px;
+    margin: 20px auto 50px;
   }
 }
